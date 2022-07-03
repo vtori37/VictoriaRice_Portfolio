@@ -3,6 +3,9 @@ import React from 'react';
 function Portfolio() {
   return (
     <div className="projects">
+     <section>
+      <h1>Portfolio</h1>
+    </section>
       {/* <h1> My Personal Projects</h1>
        /* ------------------- Work -------------------->
       <section class="my-3" id="portfolio">

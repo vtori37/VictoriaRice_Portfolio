@@ -15,19 +15,11 @@ function App() {
     <Router>
       <Navi />
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route path="/About" element={<About />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="contact" element={<Contact />} />
           <Route path="resume" element={<Resume />} />
         </Routes>
-        <div className="list">
-          <ul>
-            <li><Link to="/">about</Link></li>
-            <li><Link to="portfolio">Portfolio</Link></li>
-            <li><Link to="contact">Cotact</Link></li>
-            <li><Link to="resume">Resume</Link></li>
-          </ul>
-        </div>
      </Router>
     <Footer />  
     </div>
