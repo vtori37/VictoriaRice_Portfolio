@@ -1,24 +1,24 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
-import Navi from './components/Navi.js';
- import Footer from './components/Footer';
+import Navi from './components/Navi';
+import Footer from './components/Footer.js';
+import About from './pages/About.js';
+import Contact from './pages/Contact.js';
+import Portfolio from './pages/Portfolio.js';
+import Resume from './pages/Resume.js';
 
 
 function App() {
   return (
     <div className="App">
-    <Navi />
     <Router>
+      <Navi />
         <Routes>
-          <Route exact path="/" element={<About />} />
-          <Route exact path="portfolio" element={<Portfolio />} />
-          <Route exact path="contact" element={<Contact />} />
-          <Route exact path="resume" element={<Resume />} />
+          <Route path="/" element={<About />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="resume" element={<Resume />} />
         </Routes>
         <div className="list">
           <ul>
