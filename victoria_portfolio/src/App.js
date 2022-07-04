@@ -15,6 +15,7 @@ function App() {
     <Router>
       <Navi />
         <Routes>
+          <Route path="/" element={<About />} />
           <Route path="/About" element={<About />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="contact" element={<Contact />} />
