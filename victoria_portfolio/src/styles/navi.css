@@ -1,7 +1,11 @@
 .navbar {
   margin: 20px 0 20px 0;
+  /* border-bottom: 5px solid #000000; */
 }
 
-.page-footer {
-  position: "fixed",
-}
+.footer {
+  position:fixed;
+  left:0;
+  bottom:0;
+  right:0;
+};

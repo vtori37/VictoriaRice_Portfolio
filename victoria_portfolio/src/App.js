@@ -8,7 +8,6 @@ import Contact from './pages/Contact.js';
 import Portfolio from './pages/Portfolio.js';
 import Resume from './pages/Resume.js';
 
-
 function App() {
   return (
     <div className="App">
@@ -21,8 +20,8 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="resume" element={<Resume />} />
         </Routes>
+        <Footer />
      </Router>
-    <Footer />  
     </div>
   );
 }
