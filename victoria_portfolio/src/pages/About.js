@@ -4,6 +4,7 @@ import profilePic from "../profile/profilePic.png";
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import "../styles/about.css";
+import Card from 'react-bootstrap/Card';
 
 function About() {
   return (
@@ -17,7 +18,10 @@ function About() {
       </Col>
 
       <Col className="about-me">
-        <div>          
+      <Card border="light" style={{ width: "auto" }}>
+        <Card.Body>
+          <Card.Title>About Me</Card.Title>
+           <Card.Text className="card-text">
           <p>
           I have a desire to learn more about technical design as well as web development. This includes my enrollment in UT-Austin’s Coding Boot Camp, where I am in training to become a full-stack web developer. Currently, I am deepening my understanding of newly acquired skills in HTML, JavaScript, CSS, Node.js, and MySQL. I plan to further broaden my knowledge of web development by learning TypeScript, Java, Python, and C#. In addition, I practice photography and my photo editing skills in Adobe Lightroom and Photoshop in my spare time. 
           </p>
@@ -27,7 +31,9 @@ function About() {
           <p>
           I am actively learning and look forward to new career opportunities, so please feel free to contact me if you would like to connect!
           </p>
-        </div>
+          </Card.Text>
+        </Card.Body>
+      </Card>
       </Col>
      </Row>
     </section>
