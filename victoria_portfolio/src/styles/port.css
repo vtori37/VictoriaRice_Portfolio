@@ -5,7 +5,6 @@
 
 .card {
  margin: 30px 0px;
- ;
 }
 
 .card-deck {
@@ -13,4 +12,19 @@
   flex-wrap: wrap;
   gap: 10px 20px; 
   align-content: space-evenly;
+}
+
+.resume-img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  height: 30%;
+  box-shadow: 2px 2px 2px 1px rgba(127, 105, 106, 0.246);
+  margin-bottom: 30px;
+}
+
+.resume-btn {
+align-content: center;
 }

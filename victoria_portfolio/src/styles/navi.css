@@ -4,6 +4,7 @@
 }
 
 .footer {
+  margin-bottom: auto;
   padding: 30px;
   position: "fixed";
   left: 0;

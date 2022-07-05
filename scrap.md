@@ -1,18 +1,4 @@
-##  User Story
-AS AN employer looking for candidates with experience building single-page applications
-I WANT to view a potential employee's deployed React portfolio of work samples
-SO THAT I can assess whether they're a good candidate for an open position
 
-### Deployed portfolio should include:
-* header, a section for content, and a footer
-
-### HEADER 
-*  Presents developer name and navigation bar
-
-### NAV BAR
-*  About Me, Portfolio, Contact, Resume
-*  The title corresponding to the current section is highlighted
-*  Clicking on nav title brings me to  corresponding section below the navigation without the page reloading and that title is highlighted
 
 ### LOADING PORTFOLIO
 *  the About Me title and section are selected as default for the site
