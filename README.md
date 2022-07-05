@@ -1,40 +1,23 @@
 # Victoria_Rice_Portfolio
 ## Description 
-![alt text](./assets/Images/.png)
+![alt text](./victoria_portfolio/src/pictures/PortfolioHome.png)
 ![MIT Badge](https://img.shields.io/badge/License-MIT-green)
 
 ## Description
-
+Created using React, this application serves as a portfolio website that includes an about page, a portfolio, a downloadable resume, and a contact form. 
 
 ## Table of Contents 
-* [Website](#Website)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Test](#Test)
+* [Website](#website)
 * [Contributors](#contributors)
-* [Authors](#authors)
+* [Author](#author)
 * [Technology](#technology)
-* [License](license)
 * [Questions](#Questions)
 
 ***
 
 ## Website
-Here is a link to the live website:
-[   ](https://github.com/vtori37/  )
-
-## Installation 
-To access the application...
-
-## Usage
-This project can be used to create...
-
-## Test
-Here is a demonstration of the application.
-
-
-## Contributors
-
+Here is a link to the deployed application:
+[Victoria's Portfolio](https://victoria-port.herokuapp.com/About)
 
 ## Author
 [Victoria Rice](https://github.com/vtori37)
@@ -43,16 +26,8 @@ Here is a demonstration of the application.
 * HTML5
 * CSS 
 * JS
-
-
-## License 
-https://opensource.org/licenses/MIT
-
-Copyright © <years> <copyright holder>
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+* React
+* Bootstrap
 
 
 ### Questions
