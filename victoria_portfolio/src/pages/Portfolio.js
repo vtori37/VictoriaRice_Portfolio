@@ -10,6 +10,7 @@ import crowder from '../pictures/crowder.png';
 import ecommerce from '../pictures/ecommerce.png';
 import noteTaker from  '../pictures/noteTaker.png';
 import workday from'../pictures/workday.png';
+import maecenas from'../pictures/Maecenas.png';
 
 
 function Portfolio() {
@@ -89,6 +90,18 @@ function Portfolio() {
                 This application serves as a database for an e-commerce website. It uses MySQL to create and seed the database, sequelize to create assoications, and Express.js API to allow Sequelize to communicate with the MySQL database. 
                 </Card.Text>
                 <a href="https://github.com/vtori37/e-commerce_backend" target="_blank">
+                  <Button variant="outline-info">Project GitHub Repository</Button>{' '}
+                  </a>
+              </Card.Body>
+            </Card>
+            <Card className="card" style={{ width: '25rem' }}>
+              <Card.Img variant="top" src={maecenas}/>
+              <Card.Body>
+                <Card.Title>MaecenasDevs.com</Card.Title>
+                <Card.Text>
+                MaecenasDevs is an online fourm for alumni of web development programs and industry professionals. Industry professionals can provide mentorship to aspiring developers. Creators (alumni developers) can offer up to three tiers of services and subscribers (aspiring developers) can choose to subscribe to Creators depending on the Creator's stack speciality.
+                </Card.Text>
+                <a href="https://github.com/vtori37/Maecenas-Devs" target="_blank">
                   <Button variant="outline-info">Project GitHub Repository</Button>{' '}
                   </a>
               </Card.Body>
