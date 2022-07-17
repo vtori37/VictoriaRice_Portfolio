@@ -27,6 +27,7 @@ Here is a link to the deployed application:
 * JS
 * React
 * Bootstrap
+* Heroku
 
 
 ### Questions
