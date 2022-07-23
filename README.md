@@ -1,6 +1,6 @@
 # Victoria Rice Portfolio
 
-![alt text](./victoria_portfolio/src/pictures/PortfolioHome.png)
+![alt text](./PortfolioHome.png)
 
 ## Description
 Created using React, this application serves as a portfolio website that includes an about page, a portfolio, a downloadable resume, and a contact form. 
